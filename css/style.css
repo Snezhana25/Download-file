@@ -1,0 +1,44 @@
+form input[type="file"]{
+	display: none;
+}
+span{
+	position: relative;
+	display: inline-block;
+}
+.choose + label {
+    color: #fff6fe;
+    background-color: #3e51d3;
+}
+
+.choose + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.choose + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.choose:focus + label,
+.choose + label:hover {
+    background-color: red;
+}
+
+.choose + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+#myCanvas{
+	border:1px solid #000000;
+}
